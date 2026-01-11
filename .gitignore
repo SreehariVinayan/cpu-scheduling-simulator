@@ -1,0 +1,30 @@
+# Compiled binaries
+a.out
+*.out
+*.exe
+
+# Object files
+*.o
+
+# Static / shared libraries
+*.a
+*.so
+
+# Debug files
+*.dSYM/
+*.gdb
+*.dbg
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+bin/
