@@ -2,7 +2,8 @@
 
 A C-based simulation of classical CPU scheduling algorithms used in operating systems.  
 This project demonstrates scheduling behavior, visualizes execution using Gantt charts, and compares
-average waiting times to evaluate algorithm performance. This project was developed as part of the Semester S4 Operating Systems Laboratory (Experiment 9) (AIM included as comment in main.c).
+average waiting times to evaluate algorithm performance.
+This project was developed as part of the **_Semester S4 Operating Systems Lab_** (Experiment 9) (AIM included as comment in main.c).
 
 ---
 
@@ -79,6 +80,32 @@ The simulator allows the user to choose a scheduling algorithm and displays:
 - Waiting time for each process
 - Average waiting time
 - Best algorithm based on minimum average waiting time
+
+Example output:
+
+```
+	Round Robin
+	-----------
+  Enter quantum value = 3
+
+
+	Gantt Chart:
+	--------------------------------------------------------------------
+	| P1  | P1  | P2  | P1  | P3  | P2 | P4 | P5  | P1 | P3  | P5 | P3 |
+	--------------------------------------------------------------------
+	0     3     6     9     12    15   17   19    22   23    26   28   30
+
+
+	PID	|	Waiting Time
+	P1	|	13
+	P2	|	7
+	P3	|	15
+	P4	|	8
+	P5	|	14
+
+	Average waiting time = 11.40 ms.
+
+```
 
 Example comparison output:
 
